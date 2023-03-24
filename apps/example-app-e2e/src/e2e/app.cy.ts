@@ -6,6 +6,7 @@ describe('example-app', () => {
     cy.screenshot('1920x1080-full-page', {
       capture: 'fullPage',
       overwrite: true,
+      scale: true,
     });
   });
 
@@ -14,6 +15,7 @@ describe('example-app', () => {
     cy.screenshot('1920x1080-viewport', {
       capture: 'viewport',
       overwrite: true,
+      scale: true,
     });
   });
 
@@ -22,6 +24,7 @@ describe('example-app', () => {
     cy.screenshot('1920x1080-runner', {
       capture: 'runner',
       overwrite: true,
+      scale: true,
     });
   });
 
@@ -30,6 +33,7 @@ describe('example-app', () => {
     cy.screenshot('3840x1080-full-page', {
       capture: 'fullPage',
       overwrite: true,
+      scale: true,
     });
   });
 
@@ -38,6 +42,7 @@ describe('example-app', () => {
     cy.screenshot('3840x1080-viewport', {
       capture: 'viewport',
       overwrite: true,
+      scale: true,
     });
   });
 
@@ -46,6 +51,7 @@ describe('example-app', () => {
     cy.screenshot('3840x1080-runner', {
       capture: 'runner',
       overwrite: true,
+      scale: true,
     });
   });
 
@@ -54,6 +60,7 @@ describe('example-app', () => {
     cy.screenshot('3840x2160-full-page', {
       capture: 'fullPage',
       overwrite: true,
+      scale: true,
     });
   });
 
@@ -62,6 +69,7 @@ describe('example-app', () => {
     cy.screenshot('3840x2160-viewport', {
       capture: 'viewport',
       overwrite: true,
+      scale: true,
     });
   });
 
@@ -70,6 +78,7 @@ describe('example-app', () => {
     cy.screenshot('3840x2160-runner', {
       capture: 'runner',
       overwrite: true,
+      scale: true,
     });
   });
 });
